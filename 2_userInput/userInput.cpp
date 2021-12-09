@@ -11,10 +11,9 @@ int main()
 	cin >> dollars;
 
 	rubles = dollars * 60;
-
-	cout << "\nYour amout of rubles is ";
-	cout << rubles;
-	cout << "RUB";
+	
+	// you can chain more input with <<
+	cout << "\nYour amout of rubles is " << rubles << "RUB";
 
 	return 0;
 }
